@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .caraousel {
+        @apply overscroll-y-contain scroll-auto overflow-y-auto snap-mandatory;
+    }
+
+    .caraousel::-webkit-scrollbar {
+        display: none
+    }
+}
